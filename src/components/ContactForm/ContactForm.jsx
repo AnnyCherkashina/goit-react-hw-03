@@ -35,7 +35,7 @@ function ContactForm({ addContact }) {
                     <Field type='number' name='number' placeholder='Enter number...' />
                     <ErrorMessage component='span' name='number' />
                 </label>
-                <button type="submit">Add contact</button>
+                <button className={s.button} type="submit">Add contact</button>
             </Form>
         </Formik>
     )
